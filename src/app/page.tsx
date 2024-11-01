@@ -1,10 +1,13 @@
 import Link from "@/components/Link";
+import { Grid2, Typography } from "@mui/material";
 
 export default function Home() {
   return (
-    <div>
-      <h1>Hello, Next.js!</h1>
+    <Grid2>
+      <Typography variant="h2" fontWeight={700}>
+        Hello, Next.js!
+      </Typography>
       <Link href="/faq" label="Go to FAQ" />
-    </div>
+    </Grid2>
   );
 }
