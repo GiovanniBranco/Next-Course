@@ -1,6 +1,6 @@
-import Link from "components/Link";
+import Link from "@/components/Link";
 
-export default function Page() {
+export default function Home() {
   return (
     <div>
       <h1>Hello, Next.js!</h1>
